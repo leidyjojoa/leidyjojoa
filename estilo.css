@@ -1,0 +1,386 @@
+/* GENERAL - NO CONFIGURAR */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #C7E7FF;
+    max-width: 100%;
+    max-width: 100%;
+    margin: 10px auto;
+}
+
+.in-flex{
+    flex: 1;
+    min-width: 100%;
+    padding: 10px;
+}
+.in-flex:first-child{
+    padding: 10px;
+    flex:2;
+    margin: 10px;
+    margin-bottom: 0px;
+    
+    
+}
+
+.in-flex div{
+    padding: 10px;
+    margin: 10px;
+}
+
+/* FUENTES PERSONALIZADAS */
+
+@font-face {
+    font-family: 'TÍTULO';
+    src: url(./FUENTES/School\ Mania.ttf);
+    
+}
+
+@font-face{ font-family: 'FOOTER';
+    src: url(./FUENTES/typogarden-demo.ttf);
+}
+
+
+@font-face{ font-family: 'VIDEOAUDIO';
+    src: url(./FUENTES/Candyreins.ttf);
+}
+
+
+@font-face{ font-family: 'MOMENTO';
+    src: url(./FUENTES/Paper\ Banner-Regular.ttf);
+}
+
+
+@font-face{ font-family: 'DESCRIPCION';
+    src: url(./FUENTES/Cheerful\ Newyear.otf);
+}
+
+@font-face{ font-family: 'DECORACION';
+    src: url(./FUENTES/DJB\ Doodled\ Bits.ttf);
+}
+
+@font-face{ font-family: 'FELIZ';
+    src: url(./FUENTES/Itty\ Bitty\ Notebook.otf);
+}
+
+@font-face{ font-family: 'BIO';
+    src: url(./FUENTES/Spinnenkop\ DEMO.otf);
+}
+
+/* TEXTOS- UBICACIÓN - COLORES Y TAMAÑO */
+  
+
+h1{ 
+    font-family: 'TÍTULO' ;
+    text-align: center;
+    font-size: 80px;
+    background-color: #BFD0FF;
+    color: black;
+}
+
+footer{
+    font-family: 'FOOTER';
+    text-align: center;
+    font-size: 50px;
+    background-color: #D9D5FE ;
+
+}
+
+p{
+    font-family: 'BIO';
+    padding: 10PX;
+    text-align: center;
+    font-size: 20px;
+}
+
+h2{
+    background-color: #DACDFF ;
+    font-family: 'DESCRIPCION';
+    text-align: center;
+    font-size: 32px;
+}
+
+h3{
+    font-family: 'MOMENTO';
+    text-align: center;
+    font-size: 70px;
+    background-color: #FED5F1 ;
+}
+
+
+/* MiFoto */
+
+.fotografia{
+    background-color: white;
+    width: 22%;
+    height: 13%;
+    float: left;
+    
+}
+
+.yo{
+    width: 65%;
+    height: 85%;
+    padding-left: 20%;
+
+}
+
+
+
+/* Video */
+h4{ 
+    font-family: 'VIDEOAUDIO';
+    font-size: 40px;
+    text-align: center;
+}
+
+.video{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 50%;
+    height: 450px;
+    float: left;
+    text-align: center;
+}
+    
+
+/* Descripción */
+
+.descripción{
+    background-color: white;
+    width: 65%;
+    height: 300px;
+    margin-top: 20px;
+    margin-right: 15px;
+    padding: 0 auto;
+    border-radius: 6px;
+    background-position: right;
+    float: right;
+    font-size: 15px;
+    text-justify: distribute;
+}
+
+
+
+/* Canciones - audios */
+
+.canciones{
+    background-color: white;
+    width: 40%;
+    height: 450px;
+    float: right;
+    text-align: center;
+    
+
+}
+h4{ 
+    font-family: 'VIDEOAUDIO';
+}
+
+
+
+
+/* Tabla */
+
+.tabla{
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    width: 98%;
+    height: 200px;
+    border-radius: 10px;
+    float: right;
+    margin-top: 10px;
+    margin-left: 10px;}
+
+col{
+     background-color: rgba(161, 161, 161, 0.726);
+    }
+
+
+table{margin-bottom: 2em;
+    width: 100%;}
+
+td, th {border: 1px solid rgb(126, 126, 126);
+        padding: 0.1em 1em;}
+
+th {background-color: lightslategrey;}
+
+/* Momento Felíz */
+
+.momento{
+    background-color: white;
+    width: 98%;
+    height: 600px;
+    margin-top: 20px;
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    background-position: right;
+    float: right;
+    font-size: 15px;
+    text-justify: distribute;
+    font-family: 'FELIZ';
+    text-align: center;
+}
+.él{
+    width: 40%;
+    height: 60%;
+    
+    
+}
+/* Footer */
+
+.piepagina{
+    clear: both;
+    width: 95%;
+    height: 60px;
+    margin-top: 40px;
+    vertical-align: middle;
+    background-color: #BFD0FF;
+    text-align: center;
+    padding-top: 10px;}
+
+
+
+
+
+/* Cambios */
+
+
+@media screen and (max-width: 1000px){
+    .home{background-color:#FAD6D4;}
+    
+    .canciones{
+        font-size: 15px;
+        width: 90%;
+        height: 500px;
+        justify-content: center;
+    }
+
+}
+
+
+@media screen and (max-width:700px){
+    h1{
+        background-color: #D3E2FE;
+        font-size: 60px ;
+    }
+    .home{background-color: #af92ca;}
+    
+    body{ background-color: whitesmoke;}
+    
+    
+.video{
+    width: 90%;
+    background-position: center;
+}
+
+.canciones{
+        width: 85%;
+        justify-content: center;
+        height: 450px;
+        float: left;
+       
+       
+}
+
+.momento{
+        background-color: white;
+        width: 98%;
+        height: 800px;
+
+    
+    }
+    
+.él{
+    width: 50%;
+    height: 50%;
+            }
+    
+    
+ 
+
+
+ p{font-size: 15px;}
+h3{
+    font-size: 60px;
+    background-color: #FED3DC;
+
+}
+
+}
+
+
+@media screen and (max-width:600px){
+    h1{
+        width: 93% ;
+    }
+    .fotografia{
+        background-position: center;
+        width: 80%;
+        float: none;    
+    }
+    .descripción{
+        
+        width: 92%;
+        padding-right: 20px;
+        height: 300px;
+        padding: 5px;
+        border-radius: 10px;
+        background-position:center;}
+
+}
+
+audio{
+    width: 50%;
+}
+
+
+
+@media screen and (max-width:390px){
+    .home{background-color: rgb(200, 146, 216);}
+    
+    h1{font-size: 50px;
+    }
+    body{background-color: rgb(221, 212, 236);}
+    
+    p{ font-size: 100%;}
+
+    table{margin-bottom: 2em;
+        margin: 0 auto;
+        width: 90%;}
+    .tabla{
+        font-family: 'BIO';
+        font-size: 15px;
+        width: 95%;
+    }
+    .canciones{
+        width: 90%;
+        height: 480px;
+        background-position: center;
+        justify-content: center;
+        
+    }
+
+    .piepagina{
+        width: 90%;
+        height: 80px;
+        background-color: #D1E0FF;
+    }
+    footer{
+        font-size: 40px;
+        width: 90%;
+        border-color: rgb(134, 87, 134);
+        
+    }
+
+    
+}
